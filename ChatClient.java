@@ -1,3 +1,4 @@
+package JavaChatRoomApplication;
 /* Socket programming client code */
 
 //Pseudo code for client
