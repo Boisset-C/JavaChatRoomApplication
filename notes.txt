@@ -1,0 +1,20 @@
+java.net package provides two classes:
+Socket (client)
+ServerSocket  (server)
+
+Socket Definition: (IP + PORT NUMBER)
+A socket is one endpoint of a two-way communication link between two programs running on the network. A socket is bound to a port number so that the TCP layer can identify the application that data is destined to be sent to.
+
+endpoint: Combination of an IP address and a port number. Every TCP connection can be uniquely identified by its two endpoints. Allowing for multiple connections between host and server. 
+
+
+
+1. Implement TCP
+2. Server is started on known port: 8989
+3. Client - Server IP and Port are provided on the command line
+4. Client connects to server - server asks for input - user types username "username = ComNet
+5. If a user doesn't have a provided username the server does not accept the user's messages.
+6. Once user enters a username this is broadcast to everyone
+7. User can now talk - server shares with other clients
+8. If user types bye - Server says Good Bye ComNet
+9. if a user uses AllUsers server will broadcase list of active users 
